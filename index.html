@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Data Purifing</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <form action="/data" method="post" enctype="multipart/form-data">
+      <center><h1>An Automated Data Purifing</h1></center>
+          <h1 align="center" tabindex="-1" dir="auto">DATA CLEANING</h1>
+          ## Description
+          <p dir="auto">
+            In any Machine Learning process, Data Preprocessing is the primary
+            step wherein the raw/unclean data are transformed into cleaned data,
+            So that in the later stage, machine learning algorithms can be
+            applied. This python paackage make the data preprocessing very easy
+            in just 2 lines of code. All you have to do is just input a raw
+            data(CSV file), this library will clean your data and return you the
+            cleaned dataframe on which further you can apply feature
+            engineering, feature selection and modeling.
+          </p>
+          <ul dir="auto">
+            <li>
+              What this does?
+              <ul dir="auto">
+                <li>Cleans special character</li>
+                <li>Removes duplicates</li>
+                <li>Fixes abnormality in column names</li>
+                <li>Imputes the data (categorical &amp; numerical)</li>
+              </ul>
+            </li>
+          </ul><br><br>
+      <label for="file">Please select a CSV file : </label>
+      <input type="file" name="file" id="file" />
+      <br /><br /><br />
+      <input name='send' type="submit" value="CSV" />      
+      <input name='send' type="submit" value="XML" />      
+      <input name='send' type="submit" value="HTML" />      
+    </form>
+
+    <script src="" async defer></script>
+  </body>
+</html>
